@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Košarkaški Savez Kneževine Crne Gore</title>
+
+<style>
+*{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#eeeeee;
+overflow-x:hidden;
+}
+
+.header{
+background:#a00000;
+color:white;
+text-align:center;
+padding:25px 10px;
+}
+
+.grb{
+font-size:60px;
+}
+
+.header h1{
+margin:5px;
+font-size:30px;
+}
+
+.menu{
+background:#222;
+display:flex;
+justify-content:center;
+gap:25px;
+padding:15px;
+flex-wrap:wrap;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.banner{
+width:95%;
+max-width:1100px;
+margin:20px auto;
+background:linear-gradient(90deg,#900000,#d4af37);
+color:white;
+padding:40px 15px;
+text-align:center;
+border-radius:12px;
+}
+
+.container{
+width:95%;
+max-width:1100px;
+margin:auto;
+}
+
+.box{
+background:white;
+margin:20px 0;
+padding:20px;
+border-radius:12px;
+box-shadow:0 2px 8px #ccc;
+}
+
+h2{
+color:#900000;
+border-bottom:3px solid #d4af37;
+padding-bottom:8px;
+}
+
+.news{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.card{
+flex:1;
+min-width:220px;
+background:#f5f5f5;
+padding:15px;
+border-radius:10px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th{
+background:#900000;
+color:white;
+}
+
+td,th{
+padding:12px;
+text-align:center;
+border-bottom:1px solid #ddd;
+}
+
+.clubovi{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.klub{
+background:#900000;
+color:white;
+padding:15px;
+border-radius:10px;
+flex:1;
+min-width:150px;
+text-align:center;
+}
+
+.footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="grb">🏀</div>
+
+<h1>Košarkaški Savez<br>
+Kneževine Crne Gore</h1>
+
+<p>Zvanična stranica prvenstva</p>
+
+</header>
+
+
+<nav class="menu">
+
+<a href="#">Početna</a>
+<a href="#">Rezultati</a>
+<a href="#">Klubovi</a>
+<a href="#">Tabela</a>
+<a href="#">Vijesti</a>
+<a href="#">Kontakt</a>
+
+</nav>
+
+
+<section class="banner">
+
+<h1>🏆 Liga Kneževine Crne Gore</h1>
+
+<p>Sezona 2026/27</p>
+
+</section>
+
+
+<div class="container">
+
+
+<div class="box">
+
+<h2>Najnovije vijesti</h2>
+
+<div class="news">
+
+<div class="card">
+<h3>Nova sezona</h3>
+<p>Počinje novo prvenstvo Kneževine Crne Gore.</p>
+</div>
+
+<div class="card">
+<h3>Kup Kneževine</h3>
+<p>Najbolji klubovi bore se za trofej.</p>
+</div>
+
+<div class="card">
+<h3>Reprezentacija</h3>
+<p>Pripreme za međunarodne utakmice.</p>
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="box">
+
+<h2>Tabela lige</h2>
+
+<table>
+
+<tr>
+<th>#</th>
+<th>Klub</th>
+<th>U</th>
+<th>P</th>
+<th>I</th>
+<th>Bod</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>KK Budućnost</td>
+<td>10</td>
+<td>9</td>
+<td>1</td>
+<td>19</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>KK Lovćen</td>
+<td>10</td>
+<td>8</td>
+<td>2</td>
+<td>18</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>KK Mornar</td>
+<td>10</td>
+<td>7</td>
+<td>3</td>
+<td>17</td>
+</tr>
+
+</table>
+
+</div>
+
+
+
+<div class="box">
+
+<h2>Sljedeće utakmice</h2>
+
+<p>🏀 Budućnost - Lovćen</p>
+<p>🏀 Mornar - Nikšić</p>
+<p>🏀 Zeta - Podgorica</p>
+
+</div>
+
+
+
+<div class="box">
+
+<h2>Klubovi</h2>
+
+<div class="clubovi">
+
+<div class="klub">Budućnost</div>
+<div class="klub">Lovćen</div>
+<div class="klub">Mornar</div>
+<div class="klub">Nikšić</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+<footer class="footer">
+
+Košarkaški Savez Kneževine Crne Gore © 2026
+
+</footer>
+
+
+</body>
+</html>
