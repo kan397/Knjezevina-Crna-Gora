@@ -3,195 +3,181 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tabela FL KCG</title>
+<title>Tabela Lige</title>
 
 <style>
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#00153d;
-    color:white;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b1220;
+    color: white;
 }
 
-header{
-    background:#00153d;
-    padding:20px;
-    text-align:center;
-    border-bottom:3px solid #ffd700;
+header {
+    background: linear-gradient(135deg, #111827, #1e3a8a);
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 15px #0005;
 }
 
-h1{
-    color:#ffd700;
-    margin:0;
+header h1 {
+    margin: 0;
+    font-size: 32px;
 }
 
-nav{
-    margin-top:15px;
+.container {
+    padding: 25px;
 }
 
-nav a{
-    color:#ffd700;
-    text-decoration:none;
-    margin:0 15px;
-    font-weight:bold;
-}
-
-nav a:hover{
-    color:white;
-}
-
-.container{
-    max-width:1000px;
-    margin:auto;
-    padding:30px;
+.table-box {
+    background: #111827;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px #0008;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    table-layout: auto;
-}
-
-th, td {
-    border: 1px solid #caa400;
-    padding: 10px 6px;
-    text-align: center;
-    color: white;
-    font-size: 16px;
-    white-space: nowrap;
 }
 
 th {
-    background: #ffd000;
-    color: #001b55;
+    background: #2563eb;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #334155;
+}
+
+tr:hover {
+    background: #1e293b;
+}
+
+.club {
+    text-align: left;
     font-weight: bold;
 }
 
-td:first-child {
-    width: 45px;
+.rank {
+    width: 40px;
+    font-weight: bold;
 }
 
-td:nth-child(2) {
-    text-align: left;
-    padding-left: 15px;
-    width: 180px;
+.points {
+    color: #22c55e;
+    font-weight: bold;
 }
 
-@media (max-width: 600px) {
-    th, td {
-        font-size: 14px;
-        padding: 8px 4px;
-    }
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #94a3b8;
 }
+</style>
+</head>
+
+<body>
+
 <header>
-    <h1>🏆 FL KNJEŽEVINE CRNE GORE</h1>
-
-    <nav>
-        <a href="index.html">Početna</a>
-        <a href="tabela.html">Tabela</a>
-    </nav>
+    <h1>🏆 Tabela Lige</h1>
+    <p>Kneževina Crna Gora</p>
 </header>
 
 <div class="container">
 
-<h2>Tabela lige</h2>
-
+<div class="table-box">
 <table>
+
 <tr>
 <th>#</th>
 <th>Klub</th>
-<th>OD</th>
+<th>O</th>
 <th>P</th>
-<th>R</th>
+<th>N</th>
 <th>I</th>
-<th>GOL</th>
-<th>BOD</th>
+<th>GZ</th>
+<th>GP</th>
+<th>+/−</th>
+<th>Bod</th>
 </tr>
 
-<tr class="prvi">
+<tr>
+<td class="rank">1</td>
+<td class="club">Bjelipi</td>
+<td>10</td>
+<td>8</td>
 <td>1</td>
-<td>Bratstvo</td>
-<td>7</td>
-<td>5</td>
-<td>2</td>
-<td>0</td>
-<td>31</td>
-<td>21</td>
-</tr>
-
-<tr>
-<td>2</td>
-<td>Kruna</td>
-<td>6</td>
-<td>5</td>
-<td>0</td>
 <td>1</td>
-<td></td>
-<td>17</td>
-<tr>
-
-<tr>
-<td>3</td>
-<td>Mehinagići</td>
-<td>6</td>
-<td>4</td>
-<td>0</td>
-<td>2</td>
-<td></td>
-<td>7</td>
+<td>25</td>
+<td>8</td>
+<td>+17</td>
+<td class="points">25</td>
 </tr>
 
 <tr>
-<td>4</td>
-<td>Feniks</td>
+<td class="rank">2</td>
+<td class="club">Planinari</td>
+<td>10</td>
+<td>7</td>
+<td>2</td>
+<td>1</td>
+<td>22</td>
+<td>10</td>
+<td>+12</td>
+<td class="points">23</td>
+</tr>
+
+<tr>
+<td class="rank">3</td>
+<td class="club">Mehinagići</td>
+<td>10</td>
+<td>6</td>
+<td>2</td>
+<td>2</td>
+<td>18</td>
+<td>11</td>
+<td>+7</td>
+<td class="points">20</td>
+</tr>
+
+<tr>
+<td class="rank">4</td>
+<td class="club">Devici</td>
+<td>10</td>
 <td>5</td>
 <td>2</td>
-<td>0</td>
 <td>3</td>
-<td></td>
 <td>15</td>
-</tr>
-
-<tr>
-<td>5</td>
-<td>Legija</td>
-<td>6</td>
-<td>1</td>
-<td>3</td>
-<td>2</td>
-<td></td>
-<td>14</td>
-</tr>
-
-<tr>
-<td>5</td>
-<td>Tito</td>
-<td>6</td>
-<td>2</td>
-<td>0</td>
-<td>4</td>
-<td></td>
-<td>6</td>
-</tr>
-
-<tr>
-<td>5</td>
-<td>Bosanska Gora</td>
-<td>6</td>
-<td>1</td>
-<td>1</td>
-<td>4</td>
-<td></td>
-<td>7</td>
-</tr>
-
-<tr>
-<td>5</td>
-<td>Algorèo</td>
-<td>6</td>
-<td>1</td>
-<td>1</td>
-<td>4</td>
-<td></td>
 <td>13</td>
+<td>+2</td>
+<td class="points">17</td>
 </tr>
+
+<tr>
+<td class="rank">5</td>
+<td class="club">Bratstvo</td>
+<td>10</td>
+<td>3</td>
+<td>3</td>
+<td>4</td>
+<td>12</td>
+<td>15</td>
+<td>-3</td>
+<td class="points">12</td>
+</tr>
+
+</table>
+</div>
+
+</div>
+
+<footer>
+© Kneževina Crna Gora Liga
+</footer>
+
+</body>
+</html>
