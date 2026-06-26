@@ -3,255 +3,211 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FL Kneževine Crne Gore</title>
+<title>Kneževina Crna Gora - Fudbalski Savez</title>
 
 <style>
-
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Segoe UI,sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
 }
 
 body{
-background:#0b1020;
-color:white;
+    background:#f2f2f2;
+    color:#222;
 }
 
 header{
-background:#09152d;
-padding:20px 50px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-border-bottom:3px solid gold;
+    background:linear-gradient(135deg,#8b0000,#c00000);
+    color:white;
+    padding:30px;
+    text-align:center;
 }
 
 .logo{
-font-size:28px;
-font-weight:bold;
-color:gold;
+    width:100px;
+    height:100px;
+    background:white;
+    border-radius:50%;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#8b0000;
+    font-size:35px;
+    font-weight:bold;
+}
+
+header h1{
+    margin-top:15px;
+    font-size:32px;
+}
+
+nav{
+    background:#111;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    padding:15px;
 }
 
 nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-font-weight:600;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
 }
 
 nav a:hover{
-color:gold;
+    color:#e00000;
 }
 
 .hero{
-height:90vh;
-display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:column;
-text-align:center;
-background:
-linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
-url("https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1600");
-background-size:cover;
-background-position:center;
+    background:white;
+    margin:25px;
+    padding:40px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 5px 15px #ccc;
 }
 
-.hero h1{
-font-size:70px;
-color:gold;
-margin-bottom:15px;
+.hero h2{
+    font-size:30px;
 }
 
-.hero p{
-font-size:22px;
-max-width:700px;
-}
-
-.btn{
-display:inline-block;
-margin-top:30px;
-padding:15px 35px;
-background:gold;
-color:black;
-text-decoration:none;
-font-weight:bold;
-border-radius:8px;
-}
-
-.btn:hover{
-transform:scale(1.05);
-}
-
-.section{
-padding:70px 10%;
-}
-
-.section-title{
-font-size:40px;
-color:gold;
-margin-bottom:30px;
-text-align:center;
-}
-
-.news-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
+.cards{
+    display:flex;
+    gap:20px;
+    padding:25px;
+    flex-wrap:wrap;
 }
 
 .card{
-background:#141f3a;
-padding:20px;
-border-radius:15px;
+    background:white;
+    flex:1;
+    min-width:250px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px #ccc;
 }
 
 .card h3{
-margin-bottom:10px;
-color:gold;
+    color:#a00000;
+    margin-bottom:10px;
 }
 
-.clubs{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:20px;
+table{
+    width:90%;
+    margin:25px auto;
+    border-collapse:collapse;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
 }
 
-.club{
-background:#141f3a;
-padding:20px;
-border-radius:15px;
-text-align:center;
+th{
+    background:#a00000;
+    color:white;
+    padding:12px;
 }
 
-.club-logo{
-font-size:50px;
-margin-bottom:10px;
+td{
+    padding:12px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
 }
 
 footer{
-background:#050b17;
-text-align:center;
-padding:25px;
-margin-top:50px;
-border-top:2px solid gold;
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
 }
-
 </style>
+
 </head>
+
 <body>
 
 <header>
+<div class="logo">KCG</div>
+<h1>Kneževina Crna Gora</h1>
+<p>Fudbalski Savez</p>
+</header>
 
-<div class="logo">
-🏆 FL KNEŽEVINE CRNE GORE
-</div>
 
 <nav>
 <a href="#">Početna</a>
-<a href="tabela.html">Tabela</a>
-<a href="#">Klubovi</a>
+<a href="#">Tabela</a>
 <a href="#">Utakmice</a>
-<a href="#">Vijesti</a>
+<a href="#">Klubovi</a>
+<a href="#">Kontakt</a>
 </nav>
 
-</header>
 
 <section class="hero">
-
-<h1>SEZONA 2026</h1>
-
-<p>
-Zvanična stranica Fudbalske Lige Kneževine Crne Gore.
-Pratite tabelu, rezultate utakmica i novosti iz lige.
-</p>
-
-<a href="#" class="btn">Pogledaj tabelu</a>
-
+<h2>Dobrodošli na zvaničnu stranicu lige</h2>
+<p>Najnovije vijesti, rezultati i informacije o klubovima.</p>
 </section>
 
-<section class="section">
 
-<h2 class="section-title">📰 Najnovije vijesti</h2>
-
-<div class="news-grid">
+<section class="cards">
 
 <div class="card">
-<h3>Početak sezone</h3>
-<p>Nova sezona FL KCG uskoro počinje.</p>
+<h3>⚽ Posljednje utakmice</h3>
+<p>Kruna 2 - 1 Bratstvo</p>
+<p>Bjelipi 3 - 0 Devici</p>
 </div>
 
 <div class="card">
-<h3>Transferi</h3>
-<p>Klubovi privode kraju ljetnji prelazni rok.</p>
+<h3>🏆 Takmičenje</h3>
+<p>Prva liga Kneževine Crne Gore</p>
+<p>Sezona 2026</p>
 </div>
 
 <div class="card">
-<h3>Kup takmičenje</h3>
-<p>Uskoro će biti objavljen raspored kupa.</p>
-</div>
-
+<h3>📢 Vijesti</h3>
+<p>Počinje nova fudbalska sezona!</p>
 </div>
 
 </section>
 
-<section class="section">
 
-<h2 class="section-title">⚽ Klubovi</h2>
+<h2 style="text-align:center;">Tabela</h2>
 
-<div class="clubs">
+<table>
+<tr>
+<th>#</th>
+<th>Klub</th>
+<th>Bodovi</th>
+</tr>
 
-<div class="club">
-<div class="club-logo">⚔️</div>
-<h3>FK Legija</h3>
-</div>
+<tr>
+<td>1</td>
+<td>Bjelipi</td>
+<td>12</td>
+</tr>
 
-<div class="club">
-<div class="club-logo">👑</div>
-<h3>FK Kruna</h3>
-</div>
+<tr>
+<td>2</td>
+<td>Planinari</td>
+<td>10</td>
+</tr>
 
-<div class="club">
-<div class="club-logo">🤝</div>
-<h3>FK Bratstvo</h3>
-</div>
+<tr>
+<td>3</td>
+<td>Mehinagići</td>
+<td>8</td>
+</tr>
 
-<div class="club">
-<div class="club-logo">🔥</div>
-<h3>FK Feniks</h3>
-</div>
+</table>
 
-<div class="club">
-<div class="club-logo">🟢</div>
-<h3>FK Mehinagići</h3>
-</div>
-
-<div class="club">
-<div class="club-logo">⛰️</div>
-<h3>Bosanska Gora</h3>
-</div>
-
-<div class="club">
-<div class="club-logo">💎</div>
-<h3>Algorèo</h3>
-</div>
-
-<div class="club">
-<div class="club-logo">⭐</div>
-<h3>Tito</h3>
-</div>
-
-</div>
-
-</section>
 
 <footer>
-
-© 2026 FL Kneževine Crne Gore
-
+<p>© 2026 Kneževina Crna Gora - Fudbalski Savez</p>
 </footer>
+
 
 </body>
 </html>
